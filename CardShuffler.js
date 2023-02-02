@@ -1,4 +1,4 @@
-const shuffle = () => {
+const shuffleCards = () => {
     const cards = []
 
     for(var i = 0; i < 52; i++) {
@@ -14,7 +14,5 @@ const shuffle = () => {
 
     return cards
 }
-
 var deck = shuffle()
-
-console.log(deck.sort())
+console.log(deck)
