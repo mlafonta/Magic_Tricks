@@ -15,4 +15,5 @@ const shuffleCards = () => {
     return cards
 }
 var deck = shuffle()
+
 console.log(deck)
