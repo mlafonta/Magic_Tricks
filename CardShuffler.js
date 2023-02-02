@@ -1,6 +1,5 @@
 const shuffleCards = () => {
     const cards = []
-
     for(var i = 0; i < 52; i++) {
         var rand = Math.floor(Math.random() * 10) % 2
         if(cards.filter((x) => x == "Red").length != 26 && rand == 1) {    
@@ -15,5 +14,4 @@ const shuffleCards = () => {
     return cards
 }
 var deck = shuffle()
-
 console.log(deck)
